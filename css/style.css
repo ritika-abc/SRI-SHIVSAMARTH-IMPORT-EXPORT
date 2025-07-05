@@ -597,6 +597,24 @@
     color: var(--primary) !important;
 }
 
-.obj{
+.obj {
     object-fit: cover;
+}
+
+.back {
+    background-image: url("../image/banner/background.jpg");
+    background-size: cover;
+
+}
+
+@media screen and (max-width:768px) {
+    .float_img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+.jus{
+    text-align: justify !important;
 }
