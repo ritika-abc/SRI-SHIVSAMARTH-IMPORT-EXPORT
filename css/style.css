@@ -618,3 +618,15 @@
 .jus{
     text-align: justify !important;
 }
+
+.fix{
+    background-image: url("../image/banner.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: fixed;
+    top: 0%;
+    left: 0%;
+ z-index: -1;
+}
