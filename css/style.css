@@ -615,18 +615,35 @@
 }
 
 
-.jus{
+.jus {
     text-align: justify !important;
 }
 
-.fix{
+.fix {
     background-image: url("../image/banner.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
     /* background-attachment: fixed; */
     position: fixed;
+    background-position: top center;
     top: 0%;
     left: 0%;
- z-index: -1;
+    z-index: -1;
+}
+
+
+@media screen and (max-width:768px) {
+    .fix {
+        background-image: url("../image/banner-2.jpg");
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        position: fixed;
+        background-position: top center;
+        top: 0%;
+        left: 0%;
+        z-index: -1;
+    }
 }
